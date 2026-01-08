@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Salaires Suisse – Découvre ton futur métier</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Salaires en Suisse</h1>
+    <p>Un outil simple pour t’aider à choisir ton métier.</p>
+</header>
+
+<section class="metiers">
+    <h2>Métiers & Salaires</h2>
+
+    <div class="card">
+        <h3>Informaticien CFC</h3>
+        <p>Salaire moyen : <strong>5'500 CHF</strong></p>
+        <p>Formation : CFC</p>
+    </div>
+
+    <div class="card">
+        <h3>Assistant en soins</h3>
+        <p>Salaire moyen : <strong>4'800 CHF</strong></p>
+        <p>Formation : CFC</p>
+    </div>
+
+    <div class="card">
+        <h3>Infirmier HES</h3>
+        <p>Salaire moyen : <strong>6'500 CHF</strong></p>
+        <p>Formation : HES</p>
+    </div>
+
+</section>
+
+<section class="calcul">
+    <h2>Calculateur de salaire</h2>
+    <input type="number" id="annuel" placeholder="Salaire annuel (CHF)">
+    <button onclick="calculer()">Calculer</button>
+
+    <p id="mensuel"></p>
+    <p id="horaire"></p>
+</section>
+
+<script>
+function calculer() {
+    let annuel = document.getElementById("
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #1a73e8;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.metiers, .calcul {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+button {
+    padding: 10px 20px;
+    background: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
